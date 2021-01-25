@@ -1,0 +1,39 @@
+﻿@model WebApplication_brr_bmi1.Models.Tuman
+
+@{
+    ViewBag.Title = "Delete";
+}
+
+<h2>O'chirish</h2>
+
+<h3>Siz buni o'chirishni xohlaysizmi?</h3>
+<div>
+    <h4>Tuman</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Viloyat.Viloyat_nomi)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Viloyat.Viloyat_nomi)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Tuman_nomi)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Tuman_nomi)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+      <div class="form-actions no-color">
+            <input type="submit" value="O'chirish" class="btn btn-default" /> |
+            @Html.ActionLink("Bosh sahifaga qaytish", "Index")
+        </div>
+    }
+</div>

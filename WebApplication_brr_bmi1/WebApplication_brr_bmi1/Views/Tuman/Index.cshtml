@@ -1,0 +1,54 @@
+﻿@model IEnumerable<WebApplication_brr_bmi1.Models.Tuman>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+
+
+<br />
+<br />
+
+<h1 style="text-align:center">Tuman</h1>
+<br />
+
+
+<p class="btn btn-success">
+    @Html.ActionLink("Tuman qo'shish", "Create")
+</p>
+<br />
+<br />
+
+<table class="table table-striped">
+    <tr>
+        <th>
+            Viloyat
+        </th>
+        <th>
+            Tuman
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                <h4>@item.Viloyat.Viloyat_nomi</h4>
+
+                @*@Html.DisplayFor(modelItem => item.Viloyat.Viloyat_nomi)*@
+            </td>
+            <td>
+                <h4>@item.Tuman_nomi</h4>
+
+                @*@Html.DisplayFor(modelItem => item.Tuman_nomi)*@
+            </td>
+            <td>
+                @Html.ActionLink("O'zgartirish", "Edit", new { id = item.Id }) |
+                @Html.ActionLink("Ma'lumotlar", "Details", new { id = item.Id }) |
+                @Html.ActionLink("O'chirish", "Delete", new { id = item.Id })
+            </td>
+        </tr>
+    }
+
+</table>

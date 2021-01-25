@@ -1,0 +1,26 @@
+﻿@model WebApplication_brr_bmi1.Models.Uyturi
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Uyturi</h4>
+	<hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Nomi)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Nomi)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.Id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

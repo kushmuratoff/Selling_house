@@ -1,0 +1,34 @@
+﻿@model WebApplication_brr_bmi1.Models.Valyuta
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Ma'lumotlar</h2>
+
+<div>
+    <h4>Valyuta</h4>
+	<hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Summa)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Summa)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Nomi)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Nomi)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("O'zgartirish", "Edit", new { id = Model.Id }) |
+    @Html.ActionLink("Bosh sahifaga qaytish", "Index")
+</p>

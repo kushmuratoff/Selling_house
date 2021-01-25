@@ -1,0 +1,100 @@
+﻿@model WebApplication_brr_bmi1.Models.Sahifa
+@using WebApplication_brr_bmi1.Models
+
+
+
+@{
+    ViewBag.Title = "Index";
+}
+
+
+
+@*<p class="btn btn-default">
+    @Html.ActionLink("Yangi qo'shish", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Sarlovha)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Rasm1)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Batafsil)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Sarlovha)
+        </td>
+        <td>
+            <img src="/Image/@item.Rasm1" width="100" height="100" alt="rasm" />
+
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Batafsil)
+        </td>
+        <td>
+            @Html.ActionLink("O'zgartirish", "Edit", new { id = item.Id }) |
+            @Html.ActionLink("Ma'lumotlar'", "Details", new { id = item.Id }) |
+            @Html.ActionLink("O'chirish", "Delete", new { id = item.Id })
+        </td>
+    </tr>
+}
+
+</table>*@
+
+<section class="bannerbottom py-lg-5 py-md-4 py-md-3 py-2">
+    <div class="bannerbottom py-lg-5 py-md-4 py-md-3 py-2">
+        <div>
+            <p class="" style="font-size:60px; text-align:center; margin-top:-50px;">Yangiliklar</p>
+
+        </div>
+        <br />
+        <br />
+
+        <div class="container">
+           
+            <div class="row">
+                @foreach (Yangilik x in Model.Yangilik)
+                {
+
+                    
+                    <div class="col-md-4 col-sm-12 w3_ban">
+                        <div class="card">
+                            <img class="card-img-top" src="/Image/@x.Rasm1" width="200" height="350" alt="Card image cap">
+                            <div class="card-body">
+                               
+                                <p class="card-text"> @x.Sarlovha   </p>
+                                <a href="/Yangilik/More/@x.Id" class="btn btn-primary" >Batafsil</a>
+                                @*<p class="card-text">Manzil: @x.Batafsil   </p>*@
+                                @*<div>
+                                    @Html.ActionLink("O'zgartirish", "Edit", new { id = x.Id }) |
+                                    @Html.ActionLink("Ma'lumotlar", "Details", new { id = x.Id }) |
+                                    @Html.ActionLink("O'chirish", "Delete", new { id = x.Id })
+                                </div>*@
+
+                                  </div>
+                        </div>
+                        <br />
+                        <br />
+                    </div>
+                    
+                }
+            </div>
+            @*<button class="btn btn-default">
+                @Html.ActionLink("Yangi qo'shish", "Create")
+            </button>*@
+
+          
+        </div>
+    </div>
+</section>
+
+
+
+

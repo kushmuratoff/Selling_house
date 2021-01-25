@@ -1,0 +1,67 @@
+﻿@model WebApplication_brr_bmi1.Models.Yangilik
+
+@{
+    ViewBag.Title = "Delete";
+}
+
+<br />
+<br />
+<br />
+
+
+<h3 ><font style="color:red"> Sizni ma'lumotlariz o'chadi!!!</font></h3>
+<div>
+    <br />
+    <br />
+
+    <h4>Yangilik</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Sarlovha)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Sarlovha)
+        </dd>
+        <hr />
+        <dt>
+            @Html.DisplayNameFor(model => model.Rasm1)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Rasm1)
+        </dd>
+        <hr />
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Batafsil)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Batafsil)
+        </dd>
+        <hr />
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="O'CHIRISH" class="btn btn-danger" /> 
+            &nbsp;
+            &nbsp;
+            &nbsp;
+            <button class="btn btn-default">
+                @Html.ActionLink("Orqaga qaytish", "Index")
+            </button>
+        </div>
+        <br />
+        <br />
+        <br />
+        
+        
+        
+    }
+</div>

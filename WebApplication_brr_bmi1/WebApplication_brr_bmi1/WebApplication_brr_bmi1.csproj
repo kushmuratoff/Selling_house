@@ -1,0 +1,360 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{548755B2-3B40-4970-BB63-1E259F76A7A2}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WebApplication_brr_bmi1</RootNamespace>
+    <AssemblyName>WebApplication_brr_bmi1</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <MvcBuildViews>false</MvcBuildViews>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="itextsharp">
+      <HintPath>..\packages\iTextSharp.5.5.13\lib\itextsharp.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="PagedList">
+      <HintPath>..\packages\PagedList.1.17.0.0\lib\net40\PagedList.dll</HintPath>
+    </Reference>
+    <Reference Include="PagedList.Mvc">
+      <HintPath>..\packages\PagedList.Mvc.4.5.0.0\lib\net40\PagedList.Mvc.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.Compression.Base">
+      <HintPath>..\packages\Syncfusion.Compression.Base.17.1.0.44\lib\net45\Syncfusion.Compression.Base.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.Pdf.Base">
+      <HintPath>..\packages\Syncfusion.Pdf.AspNet.Mvc5.17.1.0.44\lib\net45\Syncfusion.Pdf.Base.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Abstractions" />
+    <Reference Include="System.Web.Routing" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http">
+    </Reference>
+    <Reference Include="System.Net.Http.WebRequest">
+    </Reference>
+    <Reference Include="System.Web.Helpers, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.0.0\lib\net45\System.Web.Helpers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Mvc, Version=5.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.Mvc.5.0.0\lib\net45\System.Web.Mvc.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Optimization">
+      <HintPath>..\packages\Microsoft.AspNet.Web.Optimization.1.1.1\lib\net40\System.Web.Optimization.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.Razor.3.0.0\lib\net45\System.Web.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.0.0\lib\net45\System.Web.WebPages.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Deployment, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.0.0\lib\net45\System.Web.WebPages.Deployment.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.0.0\lib\net45\System.Web.WebPages.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <Private>True</Private>
+      <HintPath>..\packages\Newtonsoft.Json.5.0.6\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="WebGrease">
+      <Private>True</Private>
+      <HintPath>..\packages\WebGrease.1.5.2\lib\WebGrease.dll</HintPath>
+    </Reference>
+    <Reference Include="Antlr3.Runtime">
+      <Private>True</Private>
+      <HintPath>..\packages\Antlr.3.4.1.9004\lib\Antlr3.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Xceed.Words.NET">
+      <HintPath>..\packages\DocX.1.3.0\lib\net40\Xceed.Words.NET.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+    <Folder Include="Image\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="App_Start\BundleConfig.cs" />
+    <Compile Include="App_Start\FilterConfig.cs" />
+    <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\AdminController.cs" />
+    <Compile Include="Controllers\galeriyaController.cs" />
+    <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\RollarController.cs" />
+    <Compile Include="Controllers\SotuvController.cs" />
+    <Compile Include="Controllers\TulovController.cs" />
+    <Compile Include="Controllers\TumanController.cs" />
+    <Compile Include="Controllers\UserlarController.cs" />
+    <Compile Include="Controllers\UyController.cs" />
+    <Compile Include="Controllers\UyturiController.cs" />
+    <Compile Include="Controllers\ValyutaController.cs" />
+    <Compile Include="Controllers\ViloyatController.cs" />
+    <Compile Include="Controllers\XaridorController.cs" />
+    <Compile Include="Controllers\XonadonController.cs" />
+    <Compile Include="Controllers\YangilikController.cs" />
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201903231540404_InitialCreate.cs" />
+    <Compile Include="Migrations\201903231540404_InitialCreate.Designer.cs">
+      <DependentUpon>201903231540404_InitialCreate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201903260616020_yangi.cs" />
+    <Compile Include="Migrations\201903260616020_yangi.Designer.cs">
+      <DependentUpon>201903260616020_yangi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201903261610435_mig1.cs" />
+    <Compile Include="Migrations\201903261610435_mig1.Designer.cs">
+      <DependentUpon>201903261610435_mig1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201904050930108_assalom.cs" />
+    <Compile Include="Migrations\201904050930108_assalom.Designer.cs">
+      <DependentUpon>201904050930108_assalom.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201904050935380_assalom1.cs" />
+    <Compile Include="Migrations\201904050935380_assalom1.Designer.cs">
+      <DependentUpon>201904050935380_assalom1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201905232022475_yangisam.cs" />
+    <Compile Include="Migrations\201905232022475_yangisam.Designer.cs">
+      <DependentUpon>201905232022475_yangisam.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="Models\BazaContext.cs" />
+    <Compile Include="Models\Model.cs" />
+    <Compile Include="Models\Sahifa.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Rollarr\SiteRole.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Content\bootstrap.css" />
+    <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\PagedList.css" />
+    <Content Include="favicon.ico" />
+    <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Global.asax" />
+    <Content Include="Content\Site.css" />
+    <Content Include="Scripts\bootstrap.js" />
+    <Content Include="Scripts\bootstrap.min.js" />
+    <None Include="Scripts\jquery-1.10.2.intellisense.js" />
+    <Content Include="Scripts\jquery-1.10.2.js" />
+    <Content Include="Scripts\jquery-1.10.2.min.js" />
+    <Content Include="Scripts\modernizr-2.6.2.js" />
+    <Content Include="Scripts\respond.js" />
+    <Content Include="Scripts\respond.min.js" />
+    <Content Include="Scripts\_references.js" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Views\Web.config" />
+    <Content Include="Views\_ViewStart.cshtml" />
+    <Content Include="Views\Shared\Error.cshtml" />
+    <Content Include="Views\Shared\_Layout.cshtml" />
+    <Content Include="Views\Home\About.cshtml" />
+    <Content Include="Views\Home\Contact.cshtml" />
+    <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Scripts\jquery-1.10.2.min.map" />
+    <Content Include="Views\Viloyat\Create.cshtml" />
+    <Content Include="Views\Viloyat\Delete.cshtml" />
+    <Content Include="Views\Viloyat\Details.cshtml" />
+    <Content Include="Views\Viloyat\Edit.cshtml" />
+    <Content Include="Views\Viloyat\Index.cshtml" />
+    <Content Include="Views\Tuman\Create.cshtml" />
+    <Content Include="Views\Tuman\Delete.cshtml" />
+    <Content Include="Views\Tuman\Details.cshtml" />
+    <Content Include="Views\Tuman\Edit.cshtml" />
+    <Content Include="Views\Tuman\Index.cshtml" />
+    <Content Include="Views\Rollar\Create.cshtml" />
+    <Content Include="Views\Rollar\Delete.cshtml" />
+    <Content Include="Views\Rollar\Details.cshtml" />
+    <Content Include="Views\Rollar\Edit.cshtml" />
+    <Content Include="Views\Rollar\Index.cshtml" />
+    <Content Include="Views\Sotuv\Create.cshtml" />
+    <Content Include="Views\Sotuv\Delete.cshtml" />
+    <Content Include="Views\Sotuv\Details.cshtml" />
+    <Content Include="Views\Sotuv\Edit.cshtml" />
+    <Content Include="Views\Sotuv\Index.cshtml" />
+    <Content Include="Views\Tulov\Create.cshtml" />
+    <Content Include="Views\Tulov\Delete.cshtml" />
+    <Content Include="Views\Tulov\Details.cshtml" />
+    <Content Include="Views\Tulov\Edit.cshtml" />
+    <Content Include="Views\Tulov\Index.cshtml" />
+    <Content Include="Views\Userlar\Create.cshtml" />
+    <Content Include="Views\Userlar\Delete.cshtml" />
+    <Content Include="Views\Userlar\Details.cshtml" />
+    <Content Include="Views\Userlar\Edit.cshtml" />
+    <Content Include="Views\Userlar\Index.cshtml" />
+    <Content Include="Views\Uy\Create.cshtml" />
+    <Content Include="Views\Uy\Delete.cshtml" />
+    <Content Include="Views\Uy\Details.cshtml" />
+    <Content Include="Views\Uy\Edit.cshtml" />
+    <Content Include="Views\Uy\Index.cshtml" />
+    <Content Include="Views\Xaridor\Create.cshtml" />
+    <Content Include="Views\Xaridor\Delete.cshtml" />
+    <Content Include="Views\Xaridor\Details.cshtml" />
+    <Content Include="Views\Xaridor\Edit.cshtml" />
+    <Content Include="Views\Xaridor\Index.cshtml" />
+    <Content Include="Views\Xonadon\Create.cshtml" />
+    <Content Include="Views\Xonadon\Delete.cshtml" />
+    <Content Include="Views\Xonadon\Details.cshtml" />
+    <Content Include="Views\Xonadon\Edit.cshtml" />
+    <Content Include="Views\Xonadon\Index.cshtml" />
+    <Content Include="Views\Home\Login.cshtml" />
+    <Content Include="Views\Home\Krish.cshtml" />
+    <Content Include="Views\Home\Register.cshtml" />
+    <Content Include="Views\Home\Saqlash.cshtml" />
+    <Content Include="Views\Valyuta\Create.cshtml" />
+    <Content Include="Views\Valyuta\Delete.cshtml" />
+    <Content Include="Views\Valyuta\Details.cshtml" />
+    <Content Include="Views\Valyuta\Edit.cshtml" />
+    <Content Include="Views\Valyuta\Index.cshtml" />
+    <Content Include="Views\galeriya\Index.cshtml" />
+    <Content Include="Views\galeriya\Buy.cshtml" />
+    <Content Include="Views\Tulov\IndexFoy.cshtml" />
+    <Content Include="Views\Valyuta\Konver.cshtml" />
+    <Content Include="Views\Valyuta\Hisob.cshtml" />
+    <Content Include="Views\Uyturi\Create.cshtml" />
+    <Content Include="Views\Uyturi\Delete.cshtml" />
+    <Content Include="Views\Uyturi\Details.cshtml" />
+    <Content Include="Views\Uyturi\Edit.cshtml" />
+    <Content Include="Views\Uyturi\Index.cshtml" />
+    <Content Include="Views\Xonadon\Korish.cshtml" />
+    <Content Include="Views\Yangilik\Create.cshtml" />
+    <Content Include="Views\Yangilik\Delete.cshtml" />
+    <Content Include="Views\Yangilik\Details.cshtml" />
+    <Content Include="Views\Yangilik\Edit.cshtml" />
+    <Content Include="Views\Yangilik\Index.cshtml" />
+    <Content Include="Views\Yangilik\More.cshtml" />
+    <Content Include="Views\galeriya\Olish.cshtml" />
+    <Content Include="Views\Admin\Adminga.cshtml" />
+    <Content Include="Views\Admin\SotilganUy.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\201903231540404_InitialCreate.resx">
+      <DependentUpon>201903231540404_InitialCreate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201903260616020_yangi.resx">
+      <DependentUpon>201903260616020_yangi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201903261610435_mig1.resx">
+      <DependentUpon>201903261610435_mig1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201904050930108_assalom.resx">
+      <DependentUpon>201904050930108_assalom.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201904050935380_assalom1.resx">
+      <DependentUpon>201904050935380_assalom1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201905232022475_yangisam.resx">
+      <DependentUpon>201905232022475_yangisam.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="packages.config" />
+    <None Include="Project_Readme.html" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <Target Name="MvcBuildViews" AfterTargets="AfterBuild" Condition="'$(MvcBuildViews)'=='true'">
+    <AspNetCompiler VirtualPath="temp" PhysicalPath="$(WebProjectOutputDir)" />
+  </Target>
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>4936</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:4936/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target> -->
+</Project>

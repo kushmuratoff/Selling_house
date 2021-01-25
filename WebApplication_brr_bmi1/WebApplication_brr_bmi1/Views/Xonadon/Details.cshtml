@@ -1,0 +1,58 @@
+﻿@model WebApplication_brr_bmi1.Models.Xonadon
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Ma'lumotlar</h2>
+
+<div>
+    <h4>Xonadon</h4>
+	<hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Uy.Manzil)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Uy.Manzil)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Xonalar_soni)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Xonalar_soni)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Nechnchi_qavat)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Nechnchi_qavat)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Narxi)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Narxi)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Malumot)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Malumot)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("O'zgartirish", "Edit", new { id = Model.Id }) |
+    @Html.ActionLink("Bosh sahifaga qaytish", "Index")
+</p>

@@ -1,0 +1,56 @@
+﻿@model WebApplication_brr_bmi1.Models.Yangilik
+
+@{
+    ViewBag.Title = "Edit";
+}
+<br />
+
+<br />
+<h2>O'zgartirish</h2>
+
+@using (Html.BeginForm("Edit", "Yangilik", FormMethod.Post, new { enctype = "multipart/form-data" }))
+{
+    @Html.AntiForgeryToken()
+    
+    <div class="form-horizontal">
+        <h4>Yangilik</h4>
+        <hr />
+        @Html.ValidationSummary(true)
+        @Html.HiddenFor(model => model.Id)
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.Sarlovha, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.Sarlovha)
+                @Html.ValidationMessageFor(model => model.Sarlovha)
+            </div>
+        </div>
+        <hr />
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.Rasm1, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                <input type="file" name="Imagefile" value="@Model.Rasm1" required>
+                @Html.ValidationMessageFor(model => model.Rasm1)
+            </div>
+        </div>
+        <hr />
+        <div class="form-group">
+            @Html.LabelFor(model => model.Batafsil, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.Batafsil)
+                @Html.ValidationMessageFor(model => model.Batafsil)
+            </div>
+        </div>
+        <hr />
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="SAQLASH" class="btn btn-default" />
+            </div>
+        </div>
+    </div>
+}
+
+<div>
+    @Html.ActionLink("Ortga qaytish", "Index")
+</div>

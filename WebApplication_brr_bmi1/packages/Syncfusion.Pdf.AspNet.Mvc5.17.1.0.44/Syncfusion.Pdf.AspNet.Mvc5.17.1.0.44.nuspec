@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>Syncfusion.Pdf.AspNet.Mvc5</id>
+    <version>17.1.0.44</version>
+    <title>Create, Read and Edit PDF file in ASP.NET MVC using Syncfusion PDF library</title>
+    <authors>Syncfusion Inc.</authors>
+    <owners>Syncfusion Inc.</owners>
+    <licenseUrl>https://www.syncfusion.com/nuget/license?utm_source=nuget&amp;utm_medium=listing</licenseUrl>
+    <projectUrl>https://www.syncfusion.com/?utm_source=nuget&amp;utm_medium=listing</projectUrl>
+    <iconUrl>https://www.syncfusion.com/content/images/nuget/sync_logo_icon.png?utm_source=nuget&amp;utm_medium=listing</iconUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <description>Syncfusion Essential PDF is a .NET PDF library used to create, read, and edit PDF files in any ASP.NET MVC application.
+
+	Key features:
+	• Create, edit, fill, and flatten AcroForm and XFA form fields.
+	• Merge, split, rearrange, and remove pages.
+	• Create accessible PDF (PDF/UA) from scratch.
+	• Create PDF/A1b and PDF/X1a conformance document from scratch.
+	• Compress PDF file.
+	• Watermark or stamp PDF document with text or images.
+	• Replace fonts and images.
+	• Extract text and images.
+	• Create richly formatted tables from different data source easily. More styling options available.
+	• Protect PDF with advanced encryption standard (PDF 2.0). Change password and permission are also available.
+	• Advanced digital signing with PFX, HSM, and Windows Store. Support for Online Certificate Status Protocol (OCSP) and Certificate Revocation List (CRL).
+	• PDF to image, HTML to PDF, Word to PDF, Excel to PDF, XPS to PDF, EMF to PDF.
+	• OCR -- Scanned document to searchable PDF.
+	• Add, edit, and remove 17+ supported annotations.
+	• Predefined and JavaScript actions.
+	• Add, edit, and delete bookmark from PDF.
+	• Add, edit, delete, extract, and attach from PDF.
+
+	Learn more: https://www.syncfusion.com/pdf-framework/net?utm_source=nuget&amp;utm_medium=listing
+
+	Documentation: http://help.syncfusion.com/file-formats/pdf/
+
+	Support:
+	Incident: https://www.syncfusion.com/support/directtrac/incidents/newincident?utm_source=nuget&amp;utm_medium=listing
+	Forum: https://www.syncfusion.com/forums/aspnetmvc?utm_source=nuget&amp;utm_medium=listing
+
+This is a commercial product and requires a paid license for possession or use. Syncfusion’s licensed software, including this component, is subject to the terms and conditions of Syncfusion's EULA (https://www.syncfusion.com/eula/es/?utm_source=nuget&amp;utm_medium=listing). To acquire a license, you can purchase one at https://www.syncfusion.com/sales/products?utm_source=nuget&amp;utm_medium=listing or start a free 30-day trial here (https://www.syncfusion.com/account/manage-trials/start-trials?utm_source=nuget&amp;utm_medium=listing).
+
+© Copyright 2019 Syncfusion, Inc. All Rights Reserved. The Syncfusion Essential Studio license and copyright applies to this distribution.</description>
+    <summary />
+    <releaseNotes>https://help.syncfusion.com/aspnetmvc/release-notes/v17.1.0.44?utm_source=nuget&amp;utm_medium=listing</releaseNotes>
+    <copyright>Copyright 2001 - 2019 Syncfusion Inc.</copyright>
+    <tags>syncfusion syncfusion.aspnetmvc mvc pdf tagged-pdf acroform xfa conformance-standard pdf-tables c# .net</tags>
+    <dependencies>
+      <dependency id="Syncfusion.Compression.Base" version="17.1.0.44" />
+    </dependencies>
+  </metadata>
+</package>

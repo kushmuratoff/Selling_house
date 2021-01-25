@@ -1,0 +1,60 @@
+﻿@model IEnumerable<WebApplication_brr_bmi1.Models.Valyuta>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Valyuta</h2>
+
+@*<p>
+    @Html.ActionLink("Yangi qo'shish", "Create")
+</p>*@
+<table class="table table-striped">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Summa)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Nomi)
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Summa)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Nomi)
+            </td>
+            @*<td>
+                @Html.ActionLink("O'zgartirish", "Edit", new { id = item.Id }) |
+                @Html.ActionLink("Ma'lumotlar'", "Details", new { id = item.Id }) |
+                @Html.ActionLink("O'chirish", "Delete", new { id = item.Id })
+            </td>*@
+        </tr>
+    }
+
+</table>
+Onlayn
+<html>
+<head>
+    <title>Input tutorial</title>
+    <script language="javascript">
+        function addNumbers() {
+            var val1 = parseInt(document.getElementById("value1").value);
+            var val2 = parseInt(document.getElementById("value2").value);
+            var ansD = document.getElementById("answer");
+            ansD.value = val1 * val2;
+        }
+    </script>
+</head>
+<body>
+    <input type="text" id="value1" name="value1" placeholder="USA" />
+   <input type="text" id="value2" name="value2" placeholder="SUM" />
+    <input type="button" name="Sumbit" value="Hisoblash" onclick="javascript:addNumbers()" />
+    Qiymat<input type="text" id="answer" name="answer" placeholder="SUMMA" />
+</body>
+</html>

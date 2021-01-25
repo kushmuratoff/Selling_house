@@ -1,0 +1,72 @@
+﻿@model WebApplication_brr_bmi1.Models.Sahifa
+@using WebApplication_brr_bmi1.Models
+
+
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<section class="bannerbottom py-lg-5 py-md-4 py-md-3 py-2">
+    <div class="bannerbottom py-lg-5 py-md-4 py-md-3 py-2">
+        <div>
+            <p class="" style="font-size:60px; text-align:center; margin-top:-50px;">Yangiliklar</p>
+
+        </div>
+        <br />
+        <br />
+
+        <div class="container">
+
+            <div class="row">
+                @foreach (Yangilik x in Model.Yangilik)
+                {
+
+                    <div class="col-md-4 col-sm-12 w3_ban">
+                        <div class="card">
+                            <br />
+                          
+
+                            <b style="text-align:center;" class="card-text"> @x.Sarlovha   </b>
+                   
+                            <br />
+
+                            <img class="card-img-top" src="/Image/@x.Rasm1" width="200" height="300" alt="Card image cap">
+                            <div class="card-body">
+
+                              
+                                @*<a href="#" class="btn btn-primary">Batafsil</a>*@
+                                @*<p class="card-text">Manzil: @x.Batafsil   </p>*@
+                                @*<div>
+                                        @Html.ActionLink("Edit", "Edit", new { id = x.Id }) |
+                                        @Html.ActionLink("Details", "Details", new { id = x.Id }) |
+                                        @Html.ActionLink("Delete", "Delete", new { id = x.Id })
+                                    </div>*@
+
+                            </div>
+                        </div>
+                        <br />
+                        <br />
+                    </div>
+                     <div class="col-md-8 col-sm-6 w3_ban">
+                         <p>@x.Batafsil</p>
+                         <br />
+                         <br />
+                         <br />
+                         <br />
+                         <br />
+                         <br />
+
+                         <a href="/Yangilik/Index" class="btn btn-success">Orqaga</a>
+                       
+                    </div>
+                }
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+
+

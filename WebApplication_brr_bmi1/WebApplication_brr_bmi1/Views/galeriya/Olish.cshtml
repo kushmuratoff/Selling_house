@@ -1,0 +1,167 @@
+﻿@model WebApplication_brr_bmi1.Models.Sahifa
+@using WebApplication_brr_bmi1.Models
+<br /><br />
+
+<section class="pricinglist ">
+    <div class="pricinglist ">
+        <h3 class="mb-lg-5 mb-md-4 mb-sm-3 mb-2">Xaridor ma'lumotlari</h3>
+        <div class="container">
+            @foreach(Xaridor x in Model.Xaridor)
+            {
+                <div class="w3_1">
+                <div class="row">
+                    <div class="col-sm-6 w3_a1">
+                        <h4>Familiya</h4>
+                        <p>Xaridor</p>
+                    </div>
+                    <div class="col-sm-6 w3_a2">
+                        <h4>@x.Familiya</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="w3_1">
+                <div class="row">
+                    <div class="col-sm-6 col-xs-6 w3_a1">
+                        <h4>Ism</h4>
+                        <p>Xaridor</p>
+                    </div>
+                    <div class="col-sm-6 col-xs-6 w3_a2">
+                        <h4>@x.Ismi</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="w3_1">
+                <div class="row">
+                    <div class="col-sm-6 w3_a1">
+                        <h4>Sharif</h4>
+                        <p>Xaridor</p>
+                    </div>
+                    <div class="col-sm-6 w3_a2">
+                        <h4>@x.Sharif</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="w3_1">
+                <div class="row">
+                    <div class="col-sm-6 w3_a1">
+                        <h4>Pasport ma'lumoti</h4>
+                        <p>Xaridor</p>
+                    </div>
+                    <div class="col-sm-6 w3_a2">
+                        <h4>@x.Pas_ser</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="w3_1">
+                <div class="row">
+                    <div class=" col-sm-6 w3_a1">
+                        <h4>Manzil</h4>
+                        <p>Xaridor</p>
+                    </div>
+                    <div class="col-sm-6 w3_a2">
+                        <h4>@x.Tuman.Tuman_nomi</h4>
+                    </div>
+                </div>
+            </div>
+            }
+            
+        </div>
+    </div>
+</section>
+
+<form action="/galeriya/Olish" method="post">
+    <input type="text" name="XaridorId" value="@ViewBag.x" hidden="hidden" />
+    <input type="text" name="XonadonId" value="@ViewBag.j" hidden="hidden"/>
+    <section class="pricinglist ">
+        <div class="pricinglist ">
+            <h3 class="mb-lg-5 mb-md-4 mb-sm-3 mb-2">Xonadon ma'lumotlari</h3>
+            <div class="container">
+                @foreach (Xonadon x in Model.Xonadon)
+                {
+                    <div class="w3_1">
+                        <div class="row">
+                            <div class="col-sm-6 w3_a1">
+                                <h4>Narxi</h4>
+                                <p>Xonadon</p>
+                            </div>
+                            <div class="col-sm-6 w3_a2">
+                                <h4>@x.Narxi</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w3_1">
+                        <div class="row">
+                            <div class="col-sm-6 col-xs-6 w3_a1">
+                                <h4>Xonalar soni</h4>
+                                <p>Xonadon</p>
+                            </div>
+                            <div class="col-sm-6 col-xs-6 w3_a2">
+                                <h4>@x.Xonalar_soni ta</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w3_1">
+                        <div class="row">
+                            <div class="col-sm-6 w3_a1">
+                                <h4>Qavat</h4>
+                                <p>Xonadon</p>
+                            </div>
+                            <div class="col-sm-6 w3_a2">
+                                <h4>@x.Nechnchi_qavat -qavat</h4>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="w3_1">
+                        <div class="row">
+                            <div class=" col-sm-6 w3_a1">
+                                <h4>Uy manzil</h4>
+                                <p>Xonadon</p>
+                            </div>
+                            <div class="col-sm-6 w3_a2">
+                                <h4>@x.Uy.Tuman.Tuman_nomi</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w3_1">
+                        <div class="row">
+                            <div class=" col-sm-6 w3_a1">
+                                <h4>To'ov turi</h4>
+                                <p>Xonadon</p>
+                            </div>
+                            <div class="col-sm-6 w3_a2">
+                                <h4>
+                                    <select name="tulovId">
+                                        <option>Tanlang...</option>
+                                        @foreach (tulov t in Model.tulov)
+                                        {
+                                    <option value="@t.Id">@t.Tulov_turi</option>
+                                            }
+                                    </select><br /><br />
+                                </h4>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="w3_1">
+                        <div class="row">
+                            <div class=" col-sm-6 w3_a1">
+
+                            </div>
+                            <div class="col-sm-6 w3_a2">
+                                <h4><input type="submit" value="Sotib olish" class="btn btn-success" /></h4>
+                            </div>
+                        </div>
+                        
+                    </div>
+                }
+
+            </div>
+        </div>
+    </section>
+</form>
+
+<br /><br />
+
+
+

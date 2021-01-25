@@ -1,0 +1,74 @@
+﻿@model WebApplication_brr_bmi1.Models.Xaridor
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Ma'lumotlar</h2>
+
+<div>
+    <h4>Xaridor</h4>
+	<hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Tuman.Tuman_nomi)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Tuman.Tuman_nomi)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Familiya)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Familiya)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Ismi)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Ismi)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Sharif)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Sharif)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.tug_yili)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.tug_yili)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Pas_ser)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Pas_ser)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Millati)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Millati)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("O'zgartirish", "Edit", new { id = Model.Id }) |
+    @Html.ActionLink("Bosh sahifaga qaytish", "Index")
+</p>

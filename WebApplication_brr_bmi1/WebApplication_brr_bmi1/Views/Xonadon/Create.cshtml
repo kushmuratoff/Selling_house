@@ -1,0 +1,75 @@
+﻿@model WebApplication_brr_bmi1.Models.Xonadon
+
+@{
+    ViewBag.Title = "Create";
+}
+
+<h2></h2>
+
+
+@using (Html.BeginForm("Create", "Xonadon", FormMethod.Post, new { enctype = "multipart/form-data" }))
+{
+    @Html.AntiForgeryToken()
+    
+    <div class="form-horizontal">
+        <h4>Xonadon</h4>
+        <hr />
+        @Html.ValidationSummary(true)
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.Xonalar_soni, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.Xonalar_soni)
+                @Html.ValidationMessageFor(model => model.Xonalar_soni)
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.Nechnchi_qavat, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.Nechnchi_qavat)
+                @Html.ValidationMessageFor(model => model.Nechnchi_qavat)
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.Narxi, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.Narxi)
+                @Html.ValidationMessageFor(model => model.Narxi)
+            </div>
+        </div>
+        <div class="form-group">
+            @Html.LabelFor(model => model.Malumot, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                <input type="file" name="Imagefile" value="hd" required>
+
+                @Html.ValidationMessageFor(model => model.Malumot)
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.UyId, "UyId", new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.DropDownList("UyId", String.Empty)
+                @Html.ValidationMessageFor(model => model.UyId)
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Yangi qo'shish" class="btn btn-default" />
+            </div>
+        </div>
+    </div>
+}
+
+<div>
+    @Html.ActionLink("Bosh sahifaga qaytish", "Index")
+
+
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

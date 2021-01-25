@@ -1,0 +1,49 @@
+﻿@model WebApplication_brr_bmi1.Models.Yangilik
+
+@{
+    ViewBag.Title = "Details";
+}
+<br />
+<br />
+
+<h2>Ma'lumotlar</h2>
+
+<div>
+    <br />
+    
+	<hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Sarlovha)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Sarlovha)
+        </dd>
+        <hr />
+        <dt>
+            @Html.DisplayNameFor(model => model.Rasm1)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Rasm1)
+        </dd>
+        <hr />
+        <dt>
+            @Html.DisplayNameFor(model => model.Batafsil)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Batafsil)
+        </dd>
+        <hr />
+    </dl>
+</div>
+<p class="btn btn-default">
+    <button>
+        @Html.ActionLink("O'zgartirish", "Edit", new { id = Model.Id })
+    </button>
+    <button>
+        @Html.ActionLink("Orqaga qaytish", "Index")
+    </button>
+</p>

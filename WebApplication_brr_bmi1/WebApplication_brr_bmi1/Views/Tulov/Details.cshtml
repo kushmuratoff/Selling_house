@@ -1,0 +1,26 @@
+﻿@model WebApplication_brr_bmi1.Models.tulov
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Ma'lumotlar</h2>
+
+<div>
+    <h4>Xarid turi</h4>
+	<hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Tulov_turi)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Tulov_turi)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("O'zgartirish", "Edit", new { id = Model.Id }) |
+    @Html.ActionLink("Bosh sahifaga qaytish", "Index")
+</p>

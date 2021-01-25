@@ -1,0 +1,65 @@
+﻿
+@{
+    ViewBag.Title = "Konver";
+}
+
+<h2>Konver</h2>
+<table>
+    <tr>
+        <td>
+        <form method="post" action="/Valyuta/Hisob">
+    <label>Narx</label>
+    <input type="number" name="a" id="a" />
+    <select id="b" name="b" onchange="Chan()">
+        <option value="0">Tanlang...</option>
+        @foreach (var v in ViewBag.valyuta)
+        {
+            <option value="@v.Summa">@v.Nomi</option>
+        }
+    </select>
+    <label id="natija"></label>
+
+</form>
+        </td>
+        <td></td>
+
+    </tr>
+</table>
+
+@*@section scripts{
+    <script>
+        $(document).ready(function () {
+            $("#b").change(function (e) {
+
+                e.preventDefault();
+                var a = $("#a").val();
+                var b = $("#b").val();
+                if (b != 0) {
+                    // alert("asas");
+                   // $('#natija').load('@Url.Action("Hisob","Valyuta")?a=' + a + '&&b=' + b);
+                   // var nn = document.getElementById("natija").value;
+                  //  nn = "rwerw";
+                }
+              //  alert(b);
+            });
+        });
+    </script>
+}*@
+<script>
+    function Chan()
+    {
+        var a = document.getElementById("a").value;
+        var b = document.getElementById("b").value;
+        b = b.replace(",", ".");
+        if(b!=0 && a.length>0)
+        {
+
+            var s = a * b;
+            //var sA = s + '';
+            document.getElementById("natija").innerHTML ="=  "+ s;
+          
+        }
+        //alert(b);
+    }
+</script>
+

@@ -1,0 +1,54 @@
+﻿
+@{
+    ViewBag.Title = "Saqlash";
+}
+
+<h2>Saqlash</h2>
+<section>
+    <div class="modal-body">
+        <div class="loginf_module">
+            <div class="module form-module">
+                <div class="toggle">
+                    <i class="fa fa-times fa-pencil"></i>
+
+                </div>
+                <div class="form">
+                    <h3>Login va Parolingizni kiriting</h3>
+                    <p style="color: red; text-align: center">@ViewBag.habar</p>
+                    <form action="/Home/Saqlash" method="post">
+                       <input type="text" name="Fam" placeholder="Familya" required="">
+                        <input type="text" name="Ism" placeholder="Ism" required="">
+                        <input type="text" name="Shar" placeholder="Sharf" required="">
+                       <label>Tugilgan sana</label> <input type="date" name="tugyil" placeholder="Tug'ilgan sana'" required="">
+                        <br /><br />
+                        <input type="text" name="PasM" placeholder="Pasport nomer va seria" required="">
+                        <input type="text" name="Milati" placeholder="Millati" required="">
+                        <label>Tuman</label> <select style="width:200px;" name="TumId" required="" id="sel" onchange="Ok()">
+                        @foreach( var t in ViewBag.Tum)
+                        {
+                            <option value="@t.Id">@t.Tuman_nomi</option>
+                        }    
+                           
+
+                        </select>
+                        <br /><br />
+                        <input type="text" name="Login" placeholder="Login" required="" value="@ViewBag.Login">
+                        <input type="text" name="Parol" placeholder="Parol" required="" value="@ViewBag.Parol" >
+                        <input type="submit" value="Saqlash">
+                    </form>
+
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+</section>
+<script>
+  
+   function Ok()
+   {
+       var s = document.getElementById("sel").value;
+        alert(s);
+    }
+</script>

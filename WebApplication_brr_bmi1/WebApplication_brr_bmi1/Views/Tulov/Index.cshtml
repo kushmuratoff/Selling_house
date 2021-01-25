@@ -1,0 +1,32 @@
+﻿@model IEnumerable<WebApplication_brr_bmi1.Models.tulov>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<br />
+<br />
+<br />
+
+<h1 style="text-align:center">To'lov turlari</h1>
+<br />
+<br />
+<table class="table table-striped ">
+    @*<tr>
+        <th>
+            <p class="panel-heading"><strong>To'lov turlari</strong></p>
+        </th>
+        <th></th>
+    </tr>*@
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Tulov_turi)
+            </td>
+
+        </tr>
+    }
+
+</table>

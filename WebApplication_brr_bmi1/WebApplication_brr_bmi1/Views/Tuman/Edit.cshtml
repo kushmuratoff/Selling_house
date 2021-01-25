@@ -1,0 +1,50 @@
+﻿@model WebApplication_brr_bmi1.Models.Tuman
+
+@{
+    ViewBag.Title = "Edit";
+}
+
+<h2>O'zgartirish</h2>
+
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+    
+    <div class="form-horizontal">
+        <h4>Tuman</h4>
+        <hr />
+        @Html.ValidationSummary(true)
+        @Html.HiddenFor(model => model.Id)
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.Tuman_nomi, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.Tuman_nomi)
+                @Html.ValidationMessageFor(model => model.Tuman_nomi)
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.ViloyatId, "ViloyatId", new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.DropDownList("ViloyatId", String.Empty)
+                @Html.ValidationMessageFor(model => model.ViloyatId)
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Saqlash" class="btn btn-default" />
+            </div>
+        </div>
+    </div>
+}
+
+<div>
+    @Html.ActionLink("Bosh sahifaga qaytish", "Index")
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

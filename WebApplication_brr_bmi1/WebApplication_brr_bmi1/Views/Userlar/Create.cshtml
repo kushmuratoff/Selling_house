@@ -1,0 +1,65 @@
+﻿@model WebApplication_brr_bmi1.Models.Users
+
+@{
+    ViewBag.Title = "Create";
+}
+
+<h2>Create</h2>
+
+
+@using (Html.BeginForm()) 
+{
+    @Html.AntiForgeryToken()
+    
+    <div class="form-horizontal">
+        <h4>Users</h4>
+        <hr />
+        @Html.ValidationSummary(true)
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.Login, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.Login)
+                @Html.ValidationMessageFor(model => model.Login)
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.Password, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.Password)
+                @Html.ValidationMessageFor(model => model.Password)
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.RolesId, "RolesId", new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.DropDownList("RolesId", String.Empty)
+                @Html.ValidationMessageFor(model => model.RolesId)
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.XaridorId, "XaridorId", new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.DropDownList("XaridorId", String.Empty)
+                @Html.ValidationMessageFor(model => model.XaridorId)
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Create" class="btn btn-default" />
+            </div>
+        </div>
+    </div>
+}
+
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

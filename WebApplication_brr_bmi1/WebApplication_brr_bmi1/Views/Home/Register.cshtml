@@ -1,0 +1,31 @@
+﻿
+@{
+    ViewBag.Title = "Register";
+}
+
+<h1 style="text-align:center">Registratsiya</h1>
+
+<section>
+    <div class="modal-body">
+        <div class="loginf_module">
+            <div class="module form-module">
+                <div class="toggle">
+                    <i class="fa fa-times fa-pencil"></i>
+                   
+                </div>
+                <div class="form">
+                    <h3>Login va Parolingizni kiriting</h3>
+                    <p style="color: red; text-align: center">@ViewBag.habar</p>
+                    <form action="/Home/Register" method="post">                       
+                        <input type="text" name="Login" placeholder="Login" required="">
+                        <input type="text" name="Parol" placeholder="Parol" required="">
+                        <input type="submit" value="Saqlash">
+                    </form>
+                  
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+</section>

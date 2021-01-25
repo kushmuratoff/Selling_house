@@ -1,0 +1,79 @@
+﻿@model IEnumerable<WebApplication_brr_bmi1.Models.Xaridor>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Xaridor</h2>
+
+@*<p>
+    @Html.ActionLink("Yangi qo'shish", "Create")
+</p>*@
+<table class="table table-striped">
+  
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Familiya)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Ismi)
+            </th>
+            <th>
+                Sharf
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Tuman.Tuman_nomi)
+            </th>
+
+            <th>
+                Tug'ilgan yili
+            </th>
+            <th>
+                Passport seriya
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Millati)
+            </th>
+            <th></th>
+            <th></th>
+
+        </tr>
+   
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Familiya)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Ismi)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Sharif)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Tuman.Tuman_nomi)
+        </td>
+
+        <td>
+            @Html.DisplayFor(modelItem => item.tug_yili)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Pas_ser)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Millati)
+        </td>
+        <td>
+            
+        </td>
+        <td>
+            <a href="/Xonadon/Korish/@item.Id">User</a>|
+            @Html.ActionLink("O'zgartirish", "Edit", new { id = item.Id }) |
+            @Html.ActionLink("Ma'lumotlar'", "Details", new { id = item.Id }) |
+            @Html.ActionLink("O'chirish", "Delete", new { id = item.Id })
+        </td>
+    </tr>
+}
+
+</table>

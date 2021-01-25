@@ -1,0 +1,59 @@
+﻿@model WebApplication_brr_bmi1.Models.sotuv
+
+@{
+    ViewBag.Title = "Create";
+}
+
+
+
+
+@using (Html.BeginForm()) 
+{
+    @Html.AntiForgeryToken()
+    
+    <div class="form-horizontal">
+        <h4>SOTIB OLISH</h4>
+        <hr />
+        @Html.ValidationSummary(true)
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.XaridorId, "XaridorId", new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.DropDownList("XaridorId", String.Empty)
+                @Html.ValidationMessageFor(model => model.XaridorId)
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.XonadonId, "XonadonId", new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.DropDownList("XonadonId", String.Empty)
+                @Html.ValidationMessageFor(model => model.XonadonId)
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.tulovId, "tulovId", new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.DropDownList("tulovId", String.Empty)
+                @Html.ValidationMessageFor(model => model.tulovId)
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="SAQLASH" class="btn btn-default" />
+            </div>
+        </div>
+    </div>
+}
+
+<div>
+    @Html.ActionLink("Bosh menyuga qaytish", "Index")
+
+
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

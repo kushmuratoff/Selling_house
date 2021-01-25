@@ -1,0 +1,31 @@
+﻿@model WebApplication_brr_bmi1.Models.Sahifa
+@using WebApplication_brr_bmi1.Models
+
+
+<section class="bannerbottom py-lg-5 py-md-4 py-md-3 py-2">
+    <div class="bannerbottom py-lg-5 py-md-4 py-md-3 py-2">
+        <div class="container">
+            <div class="row">
+                @foreach (Xonadon x in Model.Xonadon)
+                {
+
+                    <div class="col-md-4 col-sm-12 w3_ban">
+                        <div class="card">
+                            <img class="card-img-top" src="/Image/@x.Malumot" width="200" height="300" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">Narxi: @x.Narxi</h5>
+                                <p class="card-text">Viloyat: @x.Uy.Tuman.Viloyat.Viloyat_nomi    </p>
+                                <p class="card-text">Tuman: @x.Uy.Tuman.Tuman_nomi   </p>
+
+                                <p class="card-text">Manzil: @x.Uy.Manzil    </p>
+                                <p class="card-text">@x.Nechnchi_qavat - qavat honalar soni: @x.Xonalar_soni ta   </p>
+
+                                <a href="/galeriya/Buy/@x.Id" class="btn btn-primary">Sotib Olish</a>
+                            </div>
+                        </div>
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+</section>

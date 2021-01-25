@@ -1,0 +1,137 @@
+C:\Users\user0701\documents\visual studio 2013\Projects\WebApplication_brr_bmi1\WebApplication_brr_bmi1\bin\WebApplication_brr_bmi1.dll.config
+C:\Users\user0701\documents\visual studio 2013\Projects\WebApplication_brr_bmi1\WebApplication_brr_bmi1\bin\WebApplication_brr_bmi1.dll
+C:\Users\user0701\documents\visual studio 2013\Projects\WebApplication_brr_bmi1\WebApplication_brr_bmi1\bin\WebApplication_brr_bmi1.pdb
+C:\Users\user0701\documents\visual studio 2013\Projects\WebApplication_brr_bmi1\WebApplication_brr_bmi1\bin\Antlr3.Runtime.dll
+C:\Users\user0701\documents\visual studio 2013\Projects\WebApplication_brr_bmi1\WebApplication_brr_bmi1\bin\EntityFramework.dll
+C:\Users\user0701\documents\visual studio 2013\Projects\WebApplication_brr_bmi1\WebApplication_brr_bmi1\bin\EntityFramework.SqlServer.dll
+C:\Users\user0701\documents\visual studio 2013\Projects\WebApplication_brr_bmi1\WebApplication_brr_bmi1\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\user0701\documents\visual studio 2013\Projects\WebApplication_brr_bmi1\WebApplication_brr_bmi1\bin\Newtonsoft.Json.dll
+C:\Users\user0701\documents\visual studio 2013\Projects\WebApplication_brr_bmi1\WebApplication_brr_bmi1\bin\System.Web.Helpers.dll
+C:\Users\user0701\documents\visual studio 2013\Projects\WebApplication_brr_bmi1\WebApplication_brr_bmi1\bin\System.Web.Mvc.dll
+C:\Users\user0701\documents\visual studio 2013\Projects\WebApplication_brr_bmi1\WebApplication_brr_bmi1\bin\System.Web.Optimization.dll
+C:\Users\user0701\documents\visual studio 2013\Projects\WebApplication_brr_bmi1\WebApplication_brr_bmi1\bin\System.Web.Razor.dll
+C:\Users\user0701\documents\visual studio 2013\Projects\WebApplication_brr_bmi1\WebApplication_brr_bmi1\bin\System.Web.WebPages.Deployment.dll
+C:\Users\user0701\documents\visual studio 2013\Projects\WebApplication_brr_bmi1\WebApplication_brr_bmi1\bin\System.Web.WebPages.dll
+C:\Users\user0701\documents\visual studio 2013\Projects\WebApplication_brr_bmi1\WebApplication_brr_bmi1\bin\System.Web.WebPages.Razor.dll
+C:\Users\user0701\documents\visual studio 2013\Projects\WebApplication_brr_bmi1\WebApplication_brr_bmi1\bin\WebGrease.dll
+C:\Users\user0701\documents\visual studio 2013\Projects\WebApplication_brr_bmi1\WebApplication_brr_bmi1\bin\EntityFramework.xml
+C:\Users\user0701\documents\visual studio 2013\Projects\WebApplication_brr_bmi1\WebApplication_brr_bmi1\bin\EntityFramework.SqlServer.xml
+C:\Users\user0701\documents\visual studio 2013\Projects\WebApplication_brr_bmi1\WebApplication_brr_bmi1\bin\System.Web.Helpers.xml
+C:\Users\user0701\documents\visual studio 2013\Projects\WebApplication_brr_bmi1\WebApplication_brr_bmi1\bin\System.Web.Mvc.xml
+C:\Users\user0701\documents\visual studio 2013\Projects\WebApplication_brr_bmi1\WebApplication_brr_bmi1\bin\System.Web.Optimization.xml
+C:\Users\user0701\documents\visual studio 2013\Projects\WebApplication_brr_bmi1\WebApplication_brr_bmi1\bin\System.Web.Razor.xml
+C:\Users\user0701\documents\visual studio 2013\Projects\WebApplication_brr_bmi1\WebApplication_brr_bmi1\bin\System.Web.WebPages.xml
+C:\Users\user0701\documents\visual studio 2013\Projects\WebApplication_brr_bmi1\WebApplication_brr_bmi1\bin\System.Web.WebPages.Deployment.xml
+C:\Users\user0701\documents\visual studio 2013\Projects\WebApplication_brr_bmi1\WebApplication_brr_bmi1\bin\System.Web.WebPages.Razor.xml
+C:\Users\user0701\documents\visual studio 2013\Projects\WebApplication_brr_bmi1\WebApplication_brr_bmi1\bin\Newtonsoft.Json.xml
+C:\Users\user0701\documents\visual studio 2013\Projects\WebApplication_brr_bmi1\WebApplication_brr_bmi1\bin\Antlr3.Runtime.pdb
+C:\Users\user0701\documents\visual studio 2013\Projects\WebApplication_brr_bmi1\WebApplication_brr_bmi1\obj\Debug\WebApplication_brr_bmi1.Migrations.InitialCreate.resources
+C:\Users\user0701\documents\visual studio 2013\Projects\WebApplication_brr_bmi1\WebApplication_brr_bmi1\obj\Debug\WebApplication_brr_bmi1.Migrations.yangi.resources
+C:\Users\user0701\documents\visual studio 2013\Projects\WebApplication_brr_bmi1\WebApplication_brr_bmi1\obj\Debug\WebApplication_brr_bmi1.Migrations.mig1.resources
+C:\Users\user0701\documents\visual studio 2013\Projects\WebApplication_brr_bmi1\WebApplication_brr_bmi1\obj\Debug\WebApplication_brr_bmi1.csproj.GenerateResource.Cache
+C:\Users\user0701\documents\visual studio 2013\Projects\WebApplication_brr_bmi1\WebApplication_brr_bmi1\obj\Debug\WebApplication_brr_bmi1.dll
+C:\Users\user0701\documents\visual studio 2013\Projects\WebApplication_brr_bmi1\WebApplication_brr_bmi1\obj\Debug\WebApplication_brr_bmi1.pdb
+C:\Users\user0701\Documents\Visual Studio 2013\Projects\WebApplication_brr_bmi1\WebApplication_brr_bmi1\bin\PagedList.dll
+C:\Users\user0701\Documents\Visual Studio 2013\Projects\WebApplication_brr_bmi1\WebApplication_brr_bmi1\bin\PagedList.Mvc.dll
+C:\Users\user0701\Documents\Visual Studio 2013\Projects\WebApplication_brr_bmi1\WebApplication_brr_bmi1\bin\PagedList.xml
+C:\Users\user0701\Documents\Visual Studio 2013\Projects\WebApplication_brr_bmi1\WebApplication_brr_bmi1\bin\PagedList.Mvc.xml
+C:\Users\user0701\documents\visual studio 2013\Projects\WebApplication_brr_bmi1\WebApplication_brr_bmi1\bin\Xceed.Words.NET.dll
+C:\Users\user0701\documents\visual studio 2013\Projects\WebApplication_brr_bmi1\WebApplication_brr_bmi1\obj\Debug\WebApplication_brr_bmi1.Migrations.assalom.resources
+C:\Users\user0701\documents\visual studio 2013\Projects\WebApplication_brr_bmi1\WebApplication_brr_bmi1\obj\Debug\WebApplication_brr_bmi1.Migrations.assalom1.resources
+C:\Users\user0701\documents\visual studio 2013\Projects\WebApplication_brr_bmi1\WebApplication_brr_bmi1\obj\Debug\WebApplication_brr_bmi1.csprojResolveAssemblyReference.cache
+D:\bmi\WebApplication_brr_bmi1\WebApplication_brr_bmi1\bin\WebApplication_brr_bmi1.dll.config
+D:\bmi\WebApplication_brr_bmi1\WebApplication_brr_bmi1\bin\WebApplication_brr_bmi1.dll
+D:\bmi\WebApplication_brr_bmi1\WebApplication_brr_bmi1\bin\WebApplication_brr_bmi1.pdb
+D:\bmi\WebApplication_brr_bmi1\WebApplication_brr_bmi1\bin\Antlr3.Runtime.dll
+D:\bmi\WebApplication_brr_bmi1\WebApplication_brr_bmi1\bin\EntityFramework.dll
+D:\bmi\WebApplication_brr_bmi1\WebApplication_brr_bmi1\bin\EntityFramework.SqlServer.dll
+D:\bmi\WebApplication_brr_bmi1\WebApplication_brr_bmi1\bin\Microsoft.Web.Infrastructure.dll
+D:\bmi\WebApplication_brr_bmi1\WebApplication_brr_bmi1\bin\Newtonsoft.Json.dll
+D:\bmi\WebApplication_brr_bmi1\WebApplication_brr_bmi1\bin\PagedList.dll
+D:\bmi\WebApplication_brr_bmi1\WebApplication_brr_bmi1\bin\PagedList.Mvc.dll
+D:\bmi\WebApplication_brr_bmi1\WebApplication_brr_bmi1\bin\System.Web.Helpers.dll
+D:\bmi\WebApplication_brr_bmi1\WebApplication_brr_bmi1\bin\System.Web.Mvc.dll
+D:\bmi\WebApplication_brr_bmi1\WebApplication_brr_bmi1\bin\System.Web.Optimization.dll
+D:\bmi\WebApplication_brr_bmi1\WebApplication_brr_bmi1\bin\System.Web.Razor.dll
+D:\bmi\WebApplication_brr_bmi1\WebApplication_brr_bmi1\bin\System.Web.WebPages.Deployment.dll
+D:\bmi\WebApplication_brr_bmi1\WebApplication_brr_bmi1\bin\System.Web.WebPages.dll
+D:\bmi\WebApplication_brr_bmi1\WebApplication_brr_bmi1\bin\System.Web.WebPages.Razor.dll
+D:\bmi\WebApplication_brr_bmi1\WebApplication_brr_bmi1\bin\WebGrease.dll
+D:\bmi\WebApplication_brr_bmi1\WebApplication_brr_bmi1\bin\Xceed.Words.NET.dll
+D:\bmi\WebApplication_brr_bmi1\WebApplication_brr_bmi1\bin\EntityFramework.xml
+D:\bmi\WebApplication_brr_bmi1\WebApplication_brr_bmi1\bin\EntityFramework.SqlServer.xml
+D:\bmi\WebApplication_brr_bmi1\WebApplication_brr_bmi1\bin\PagedList.xml
+D:\bmi\WebApplication_brr_bmi1\WebApplication_brr_bmi1\bin\PagedList.Mvc.xml
+D:\bmi\WebApplication_brr_bmi1\WebApplication_brr_bmi1\bin\System.Web.Helpers.xml
+D:\bmi\WebApplication_brr_bmi1\WebApplication_brr_bmi1\bin\System.Web.Mvc.xml
+D:\bmi\WebApplication_brr_bmi1\WebApplication_brr_bmi1\bin\System.Web.Optimization.xml
+D:\bmi\WebApplication_brr_bmi1\WebApplication_brr_bmi1\bin\System.Web.Razor.xml
+D:\bmi\WebApplication_brr_bmi1\WebApplication_brr_bmi1\bin\System.Web.WebPages.xml
+D:\bmi\WebApplication_brr_bmi1\WebApplication_brr_bmi1\bin\System.Web.WebPages.Deployment.xml
+D:\bmi\WebApplication_brr_bmi1\WebApplication_brr_bmi1\bin\System.Web.WebPages.Razor.xml
+D:\bmi\WebApplication_brr_bmi1\WebApplication_brr_bmi1\bin\Newtonsoft.Json.xml
+D:\bmi\WebApplication_brr_bmi1\WebApplication_brr_bmi1\bin\Antlr3.Runtime.pdb
+D:\bmi\WebApplication_brr_bmi1\WebApplication_brr_bmi1\obj\Debug\WebApplication_brr_bmi1.csprojResolveAssemblyReference.cache
+D:\bmi\WebApplication_brr_bmi1\WebApplication_brr_bmi1\obj\Debug\WebApplication_brr_bmi1.Migrations.InitialCreate.resources
+D:\bmi\WebApplication_brr_bmi1\WebApplication_brr_bmi1\obj\Debug\WebApplication_brr_bmi1.Migrations.yangi.resources
+D:\bmi\WebApplication_brr_bmi1\WebApplication_brr_bmi1\obj\Debug\WebApplication_brr_bmi1.Migrations.mig1.resources
+D:\bmi\WebApplication_brr_bmi1\WebApplication_brr_bmi1\obj\Debug\WebApplication_brr_bmi1.Migrations.assalom.resources
+D:\bmi\WebApplication_brr_bmi1\WebApplication_brr_bmi1\obj\Debug\WebApplication_brr_bmi1.Migrations.assalom1.resources
+D:\bmi\WebApplication_brr_bmi1\WebApplication_brr_bmi1\obj\Debug\WebApplication_brr_bmi1.csproj.GenerateResource.Cache
+D:\bmi\WebApplication_brr_bmi1\WebApplication_brr_bmi1\obj\Debug\WebApplication_brr_bmi1.dll
+D:\bmi\WebApplication_brr_bmi1\WebApplication_brr_bmi1\obj\Debug\WebApplication_brr_bmi1.pdb
+D:\bmi\WebApplication_brr_bmi1\WebApplication_brr_bmi1\bin\itextsharp.dll
+D:\bmi\WebApplication_brr_bmi1\WebApplication_brr_bmi1\bin\Syncfusion.Compression.Base.dll
+D:\bmi\WebApplication_brr_bmi1\WebApplication_brr_bmi1\bin\Syncfusion.Pdf.Base.dll
+D:\bmi\WebApplication_brr_bmi1\WebApplication_brr_bmi1\bin\itextsharp.xml
+D:\bmi\WebApplication_brr_bmi1\WebApplication_brr_bmi1\bin\Syncfusion.Compression.Base.xml
+D:\bmi\WebApplication_brr_bmi1\WebApplication_brr_bmi1\bin\Syncfusion.Pdf.Base.xml
+D:\bmi\WebApplication_brr_bmi1\WebApplication_brr_bmi1\obj\Debug\WebApplication_brr_bmi1.Migrations.yangisam.resources
+C:\Users\Samariddin\Desktop\Daminov S\WebApplication_brr_bmi1\WebApplication_brr_bmi1\WebApplication_brr_bmi1\bin\WebApplication_brr_bmi1.dll.config
+C:\Users\Samariddin\Desktop\Daminov S\WebApplication_brr_bmi1\WebApplication_brr_bmi1\WebApplication_brr_bmi1\bin\WebApplication_brr_bmi1.dll
+C:\Users\Samariddin\Desktop\Daminov S\WebApplication_brr_bmi1\WebApplication_brr_bmi1\WebApplication_brr_bmi1\bin\WebApplication_brr_bmi1.pdb
+C:\Users\Samariddin\Desktop\Daminov S\WebApplication_brr_bmi1\WebApplication_brr_bmi1\WebApplication_brr_bmi1\bin\Antlr3.Runtime.dll
+C:\Users\Samariddin\Desktop\Daminov S\WebApplication_brr_bmi1\WebApplication_brr_bmi1\WebApplication_brr_bmi1\bin\EntityFramework.dll
+C:\Users\Samariddin\Desktop\Daminov S\WebApplication_brr_bmi1\WebApplication_brr_bmi1\WebApplication_brr_bmi1\bin\EntityFramework.SqlServer.dll
+C:\Users\Samariddin\Desktop\Daminov S\WebApplication_brr_bmi1\WebApplication_brr_bmi1\WebApplication_brr_bmi1\bin\itextsharp.dll
+C:\Users\Samariddin\Desktop\Daminov S\WebApplication_brr_bmi1\WebApplication_brr_bmi1\WebApplication_brr_bmi1\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Samariddin\Desktop\Daminov S\WebApplication_brr_bmi1\WebApplication_brr_bmi1\WebApplication_brr_bmi1\bin\Newtonsoft.Json.dll
+C:\Users\Samariddin\Desktop\Daminov S\WebApplication_brr_bmi1\WebApplication_brr_bmi1\WebApplication_brr_bmi1\bin\PagedList.dll
+C:\Users\Samariddin\Desktop\Daminov S\WebApplication_brr_bmi1\WebApplication_brr_bmi1\WebApplication_brr_bmi1\bin\PagedList.Mvc.dll
+C:\Users\Samariddin\Desktop\Daminov S\WebApplication_brr_bmi1\WebApplication_brr_bmi1\WebApplication_brr_bmi1\bin\Syncfusion.Compression.Base.dll
+C:\Users\Samariddin\Desktop\Daminov S\WebApplication_brr_bmi1\WebApplication_brr_bmi1\WebApplication_brr_bmi1\bin\Syncfusion.Pdf.Base.dll
+C:\Users\Samariddin\Desktop\Daminov S\WebApplication_brr_bmi1\WebApplication_brr_bmi1\WebApplication_brr_bmi1\bin\System.Web.Helpers.dll
+C:\Users\Samariddin\Desktop\Daminov S\WebApplication_brr_bmi1\WebApplication_brr_bmi1\WebApplication_brr_bmi1\bin\System.Web.Mvc.dll
+C:\Users\Samariddin\Desktop\Daminov S\WebApplication_brr_bmi1\WebApplication_brr_bmi1\WebApplication_brr_bmi1\bin\System.Web.Optimization.dll
+C:\Users\Samariddin\Desktop\Daminov S\WebApplication_brr_bmi1\WebApplication_brr_bmi1\WebApplication_brr_bmi1\bin\System.Web.Razor.dll
+C:\Users\Samariddin\Desktop\Daminov S\WebApplication_brr_bmi1\WebApplication_brr_bmi1\WebApplication_brr_bmi1\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Samariddin\Desktop\Daminov S\WebApplication_brr_bmi1\WebApplication_brr_bmi1\WebApplication_brr_bmi1\bin\System.Web.WebPages.dll
+C:\Users\Samariddin\Desktop\Daminov S\WebApplication_brr_bmi1\WebApplication_brr_bmi1\WebApplication_brr_bmi1\bin\System.Web.WebPages.Razor.dll
+C:\Users\Samariddin\Desktop\Daminov S\WebApplication_brr_bmi1\WebApplication_brr_bmi1\WebApplication_brr_bmi1\bin\WebGrease.dll
+C:\Users\Samariddin\Desktop\Daminov S\WebApplication_brr_bmi1\WebApplication_brr_bmi1\WebApplication_brr_bmi1\bin\Xceed.Words.NET.dll
+C:\Users\Samariddin\Desktop\Daminov S\WebApplication_brr_bmi1\WebApplication_brr_bmi1\WebApplication_brr_bmi1\bin\EntityFramework.xml
+C:\Users\Samariddin\Desktop\Daminov S\WebApplication_brr_bmi1\WebApplication_brr_bmi1\WebApplication_brr_bmi1\bin\EntityFramework.SqlServer.xml
+C:\Users\Samariddin\Desktop\Daminov S\WebApplication_brr_bmi1\WebApplication_brr_bmi1\WebApplication_brr_bmi1\bin\itextsharp.xml
+C:\Users\Samariddin\Desktop\Daminov S\WebApplication_brr_bmi1\WebApplication_brr_bmi1\WebApplication_brr_bmi1\bin\PagedList.xml
+C:\Users\Samariddin\Desktop\Daminov S\WebApplication_brr_bmi1\WebApplication_brr_bmi1\WebApplication_brr_bmi1\bin\PagedList.Mvc.xml
+C:\Users\Samariddin\Desktop\Daminov S\WebApplication_brr_bmi1\WebApplication_brr_bmi1\WebApplication_brr_bmi1\bin\Syncfusion.Compression.Base.xml
+C:\Users\Samariddin\Desktop\Daminov S\WebApplication_brr_bmi1\WebApplication_brr_bmi1\WebApplication_brr_bmi1\bin\Syncfusion.Pdf.Base.xml
+C:\Users\Samariddin\Desktop\Daminov S\WebApplication_brr_bmi1\WebApplication_brr_bmi1\WebApplication_brr_bmi1\bin\System.Web.Helpers.xml
+C:\Users\Samariddin\Desktop\Daminov S\WebApplication_brr_bmi1\WebApplication_brr_bmi1\WebApplication_brr_bmi1\bin\System.Web.Mvc.xml
+C:\Users\Samariddin\Desktop\Daminov S\WebApplication_brr_bmi1\WebApplication_brr_bmi1\WebApplication_brr_bmi1\bin\System.Web.Optimization.xml
+C:\Users\Samariddin\Desktop\Daminov S\WebApplication_brr_bmi1\WebApplication_brr_bmi1\WebApplication_brr_bmi1\bin\System.Web.Razor.xml
+C:\Users\Samariddin\Desktop\Daminov S\WebApplication_brr_bmi1\WebApplication_brr_bmi1\WebApplication_brr_bmi1\bin\System.Web.WebPages.xml
+C:\Users\Samariddin\Desktop\Daminov S\WebApplication_brr_bmi1\WebApplication_brr_bmi1\WebApplication_brr_bmi1\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Samariddin\Desktop\Daminov S\WebApplication_brr_bmi1\WebApplication_brr_bmi1\WebApplication_brr_bmi1\bin\System.Web.WebPages.Razor.xml
+C:\Users\Samariddin\Desktop\Daminov S\WebApplication_brr_bmi1\WebApplication_brr_bmi1\WebApplication_brr_bmi1\bin\Newtonsoft.Json.xml
+C:\Users\Samariddin\Desktop\Daminov S\WebApplication_brr_bmi1\WebApplication_brr_bmi1\WebApplication_brr_bmi1\bin\Antlr3.Runtime.pdb
+C:\Users\Samariddin\Desktop\Daminov S\WebApplication_brr_bmi1\WebApplication_brr_bmi1\WebApplication_brr_bmi1\obj\Debug\WebApplication_brr_bmi1.csprojResolveAssemblyReference.cache
+C:\Users\Samariddin\Desktop\Daminov S\WebApplication_brr_bmi1\WebApplication_brr_bmi1\WebApplication_brr_bmi1\obj\Debug\WebApplication_brr_bmi1.Migrations.InitialCreate.resources
+C:\Users\Samariddin\Desktop\Daminov S\WebApplication_brr_bmi1\WebApplication_brr_bmi1\WebApplication_brr_bmi1\obj\Debug\WebApplication_brr_bmi1.Migrations.yangi.resources
+C:\Users\Samariddin\Desktop\Daminov S\WebApplication_brr_bmi1\WebApplication_brr_bmi1\WebApplication_brr_bmi1\obj\Debug\WebApplication_brr_bmi1.Migrations.mig1.resources
+C:\Users\Samariddin\Desktop\Daminov S\WebApplication_brr_bmi1\WebApplication_brr_bmi1\WebApplication_brr_bmi1\obj\Debug\WebApplication_brr_bmi1.Migrations.assalom.resources
+C:\Users\Samariddin\Desktop\Daminov S\WebApplication_brr_bmi1\WebApplication_brr_bmi1\WebApplication_brr_bmi1\obj\Debug\WebApplication_brr_bmi1.Migrations.assalom1.resources
+C:\Users\Samariddin\Desktop\Daminov S\WebApplication_brr_bmi1\WebApplication_brr_bmi1\WebApplication_brr_bmi1\obj\Debug\WebApplication_brr_bmi1.Migrations.yangisam.resources
+C:\Users\Samariddin\Desktop\Daminov S\WebApplication_brr_bmi1\WebApplication_brr_bmi1\WebApplication_brr_bmi1\obj\Debug\WebApplication_brr_bmi1.csproj.GenerateResource.Cache
+C:\Users\Samariddin\Desktop\Daminov S\WebApplication_brr_bmi1\WebApplication_brr_bmi1\WebApplication_brr_bmi1\obj\Debug\WebApplication_brr_bmi1.dll
+C:\Users\Samariddin\Desktop\Daminov S\WebApplication_brr_bmi1\WebApplication_brr_bmi1\WebApplication_brr_bmi1\obj\Debug\WebApplication_brr_bmi1.pdb
